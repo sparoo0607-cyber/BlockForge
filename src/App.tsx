@@ -7,6 +7,7 @@ import { BuildCatalogPage } from './pages/BuildCatalogPage';
 import { BuildDetailPage } from './pages/BuildDetailPage';
 import { BuildGeneratorPage } from './pages/BuildGeneratorPage';
 import { AboutPage } from './pages/AboutPage';
+import { AdminPortalPage } from './pages/AdminPortalPage';
 
 export function App() {
   return (
@@ -20,6 +21,7 @@ export function App() {
             <Route path="/builds" element={<BuildCatalogPage />} />
             <Route path="/builds/:slug" element={<BuildDetailPage />} />
             <Route path="/generate/:slug" element={<BuildGeneratorPage />} />
+            <Route path="/admin" element={<AdminPortalPage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>

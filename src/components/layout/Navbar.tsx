@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Box, Menu, X, Hammer, Compass, Info } from 'lucide-react';
+import { Box, Menu, X, Hammer, Compass, Info, Shield } from 'lucide-react';
 
 export const Navbar: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -9,6 +9,7 @@ export const Navbar: React.FC = () => {
   const navLinks = [
     { name: 'Builds', path: '/builds', icon: Box },
     { name: 'How It Works', path: '/#how-it-works', icon: Compass },
+    { name: 'Admin Portal', path: '/admin', icon: Shield },
     { name: 'About', path: '/about', icon: Info },
   ];
 

@@ -54,6 +54,11 @@ export const Footer: React.FC = () => {
                   About & Supported Editions
                 </Link>
               </li>
+              <li>
+                <Link to="/admin" className="hover:text-[#79D45B] transition-colors">
+                  Admin Portal
+                </Link>
+              </li>
             </ul>
           </div>
 
