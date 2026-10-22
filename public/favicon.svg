@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <rect width="32" height="32" rx="6" fill="#151915" />
+  <rect x="2" y="2" width="28" height="28" rx="4" stroke="#2A3229" stroke-width="1.5" />
+  <!-- Pixelated block cube -->
+  <polygon points="16,6 26,11 16,16 6,11" fill="#79D45B" />
+  <polygon points="6,11 16,16 16,26 6,21" fill="#4B9C34" />
+  <polygon points="16,16 26,11 26,21 16,26" fill="#367524" />
+  <polygon points="14,14 18,12 18,14 14,16" fill="#A3F088" opacity="0.6" />
+</svg>

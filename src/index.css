@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --color-forge-bg: #0D0F0D;
+  --color-forge-surface: #151915;
+  --color-forge-surface-2: #1D231D;
+  --color-forge-surface-3: #242D24;
+  --color-forge-accent: #79D45B;
+  --color-forge-accent-hover: #8CE26E;
+  --color-forge-accent-dark: #4B9C34;
+  --color-forge-text: #F3F5EF;
+  --color-forge-muted: #A0A89D;
+  --color-forge-border: #2A3229;
+  --color-forge-border-hover: #3E4B3D;
+  
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+}
+
+:root {
+  --forge-bg: #0D0F0D;
+  --forge-surface: #151915;
+  --forge-surface-2: #1D231D;
+  --forge-accent: #79D45B;
+  --forge-text: #F3F5EF;
+  --forge-muted: #A0A89D;
+  --forge-border: #2A3229;
+}
+
+body {
+  background-color: #0D0F0D;
+  color: #F3F5EF;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #151915;
+}
+::-webkit-scrollbar-thumb {
+  background: #2A3229;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3E4B3D;
+}
+
+/* Minecraft-style pixel-inspired button borders */
+.pixel-border {
+  box-shadow: 
+    0 -2px 0 0 #2A3229,
+    0 2px 0 0 #000000,
+    -2px 0 0 0 #2A3229,
+    2px 0 0 0 #000000;
+}
+
+.pixel-border-accent {
+  box-shadow: 
+    0 -2px 0 0 #8CE26E,
+    0 2px 0 0 #367524,
+    -2px 0 0 0 #8CE26E,
+    2px 0 0 0 #367524;
+}
